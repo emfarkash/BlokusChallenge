@@ -1,0 +1,12 @@
+#board {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  text-align: center;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

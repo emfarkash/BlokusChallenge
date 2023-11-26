@@ -1,0 +1,14 @@
+.grid {
+  border-style: solid;
+  border-color: 'black';
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-width: 1px;
+}
+
+.board-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}

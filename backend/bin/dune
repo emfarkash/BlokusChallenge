@@ -1,0 +1,5 @@
+(executables
+	(libraries lib api re yojson opium lwt logs.fmt base64 sexplib0 ounit2)
+	(preprocess
+ 		(pps ppx_sexp_conv ppx_yojson_conv lwt_ppx)) 
+	(names main test))
